@@ -1,0 +1,47 @@
+# 📊 Market Sentiment vs Trader Behavior Analysis
+
+## 🔍 Project Overview
+This project investigates the relationship between market sentiment (Fear vs Greed) and trader behavior using BTC/USD minute-level OHLCV data. It focuses on how sentiment influences trading decisions, risk-taking, and overall profitability.
+
+---
+
+## ⚙️ Methodology
+- Performed data cleaning and preprocessing on a corrupted dataset
+- Engineered key features including price returns, trading volume, and volatility
+- Developed a composite sentiment score to classify market phases (Fear vs Greed)
+- Simulated realistic trader behavior based on market conditions:
+  - Position sizing
+  - Leverage usage
+  - Trade direction (Long/Short)
+- Conducted statistical analysis using hypothesis testing (T-test)
+
+---
+
+## 📊 Key Findings
+- Fear-phase trading showed slightly higher average profitability compared to Greed phases
+- Higher leverage was associated with increased volatility and reduced win rate
+- Trader discipline and risk management had a greater impact on outcomes than market sentiment alone
+
+---
+
+## 🛠 Tech Stack
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- SciPy (Statistical Testing)
+
+---
+
+## 📂 Project Structure
+- `market_sentiment_analysis.ipynb` — Main analysis notebook
+- `data.csv` — Input dataset
+
+---
+
+## 🚀 Conclusion
+The study highlights that while market sentiment provides contextual signals, trader behavior—particularly leverage control and position management—plays a more critical role in determining profitability.
+
+---
+
+## 👩‍💻 Author
+**Monika **
